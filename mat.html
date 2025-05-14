@@ -1,0 +1,121 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Matemática</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+        <header>
+    <a href="index.html" class="home-button">🏠 Início</a>
+    <h1>Quizando</h1>
+  </header>
+  
+    <div class="container">
+        <h1>Quiz de Matemática</h1>
+        <h2>Responda às 5 perguntas para testar seus conhecimentos</h2>
+        
+        <div class="quiz-container">
+            <div class="question" id="question1">
+                <h3>1. Quanto é 8 × 7?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question1" value="incorrect"> 54
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question1" value="correct"> 56
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question1" value="incorrect"> 58
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question1" value="incorrect"> 52
+                    </label>
+                </div>
+            </div>
+            
+            <div class="question" id="question2">
+                <h3>2. Se x + 15 = 30, quanto vale x?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question2" value="incorrect"> 10
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question2" value="incorrect"> 20
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question2" value="correct"> 15
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question2" value="incorrect"> 25
+                    </label>
+                </div>
+            </div>
+            
+            <div class="question" id="question3">
+                <h3>3. Qual é a área de um quadrado de lado 12 cm?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question3" value="incorrect"> 12 cm²
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question3" value="correct"> 144 cm²
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question3" value="incorrect"> 24 cm²
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question3" value="incorrect"> 112 cm²
+                    </label>
+                </div>
+
+                 <div class="question" id="question4">
+                <h3>4. Se um produto custa R$ 120,00 e tem 25% de desconto, qual será o preço com desconto?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question4" value="correct"> 90 reais
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question4" value="incorrect"> 100 reais
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question4" value="incorrect"> 95 reais
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question4" value="incorrect"> 85 reais
+                    </label>
+                </div>
+
+                 <div class="question" id="question5">
+                <h3>5. Um triângulo tem lados de 3 cm, 4 cm e 5 cm. Que tipo de triângulo é esse?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question5" value="incorrect"> Equilátero
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question5" value="incorrect"> Escaleno
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question5" value="incorrect"> Retângulo
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question5" value="correct"> Isósceles
+                    </label>
+                </div>
+            </div>
+            
+            <button id="submit-quiz">Verificar respostas</button>
+            
+            <div id="result">
+                <!-- Resultado será exibido aqui pelo JavaScript -->
+            </div>
+            
+            <a href="index.html" class="back-to-home">Voltar ao Início</a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Ciências da Natureza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+    <a href="index.html" class="home-button">🏠 Início</a>
+    <h1>Quizando</h1>
+  </header>
+  
+    <div class="container">
+        <h1>Quiz de Ciências da Natureza</h1>
+        <h2>Responda às 5 perguntas para testar seus conhecimentos</h2>
+        
+        <div class="quiz-container">
+            <div class="question" id="question1">
+                <h3>1. Qual organela é responsável pela produção de energia na célula?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question1" value="incorrect"> Núcleo
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question1" value="correct"> Mitocôndria
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question1" value="incorrect"> Ribossomo
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question1" value="incorrect"> Lisossomo 
+                    </label>
+                </div>
+            </div>
+            
+            <div class="question" id="question2">
+                <h3>2. Qual dessas NÃO é uma fonte de energia renovável?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question2" value="incorrect"> Solar
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question2" value="incorrect"> Eólica
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question2" value="correct"> Petróleo
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question2" value="incorrect"> Hidroelétrica
+                    </label>
+                </div>
+            </div>
+            
+            <div class="question" id="question3">
+                <h3>3. Qual é o órgão responsável pela produção de insulina no corpo humano?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question3" value="incorrect"> Fígado
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question3" value="correct"> Pâncreas
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question3" value="incorrect"> Estômago
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question3" value="incorrect"> Rim
+                    </label>
+                </div>
+            </div>
+
+             <div class="question" id="question4">
+                <h3>4. Qual é a unidade de medida da força no Sistema Internacional?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question4" value="incorrect"> Joule
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question4" value="incorrect"> Watt
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question4" value="incorrect"> Pascal
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question4" value="correct">Newton
+                    </label>
+                </div>
+            </div>
+
+
+
+        <div class="question" id="question5">   
+                <h3>5. O que é uma ligação iônica?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question5" value="incorrect"> Compartilhamento de elétrons entre átomos
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question5" value="correct"> Transferência de elétrons entre átomos
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question5" value="incorrect"> União de átomos iguais
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question5" value="incorrect"> Ligação entre moléculas de água
+                    </label>
+                </div>
+            </div>    
+            <button id="submit-quiz">Verificar respostas</button>
+            
+            <div id="result">
+                <!-- Resultado será exibido aqui pelo JavaScript -->
+            </div>
+            
+            <a href="index.html" class="back-to-home">Voltar ao Início</a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

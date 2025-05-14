@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Ciências Humanas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+        <header>
+    <a href="index.html" class="home-button">🏠 Início</a>
+    <h1>Quizando</h1>
+  </header>
+  
+    <div class="container">
+        <h1>Quiz de Ciências Humanas</h1>
+        <h2>Responda às 5 perguntas para testar seus conhecimentos</h2>
+        
+        <div class="quiz-container">
+            <div class="question" id="question1">
+                <h3>1. Qual evento histórico marcou o início da Idade Moderna?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question1" value="incorrect"> Revolução Industrial
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question1" value="incorrect"> Revolução Francesa
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question1" value="incorrect"> Queda do Império Romano
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question1" value="correct"> Queda de Constantinopla
+                    </label>
+                </div>
+            </div>
+            
+            <div class="question" id="question2">
+                <h3>2. Qual é o país mais populoso do mundo?</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question2" value="incorrect"> Estados Unidos
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question2" value="correct"> Índia
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question2" value="incorrect"> Brasil
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question2" value="incorrect"> China
+                    </label>
+                </div>
+            </div>
+
+            <div class="question" id="question3">
+                <h3>3. O clima semiárido do Nordeste brasileiro se caracteriza por:</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question3" value="incorrect"> chuvas abundantes o ano todo.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question3" value="incorrect"> estações bem definidas, com inverno rigoroso.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question3" value="incorrect">  alta umidade e temperaturas baixas.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question3" value="correct"> longos períodos de estiagem e chuvas irregulares.
+                    </label>
+                </div>
+            </div>
+
+            <div class="question" id="question4">
+                <h3>4. A política do “café com leite” representava:</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question4" value="incorrect">  a aliança entre fazendeiros do Norte e os industriais do Sul.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question4" value="correct"> a alternância entre São Paulo e Minas Gerais no comando do Executivo.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question4" value="incorrect">  o revezamento no poder entre militares e civis.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question4" value="incorrect"> a supremacia do Congresso sobre o presidente.
+                    </label>
+                </div>
+            </div>
+
+             <div class="question" id="question5">
+                <h3>5. Para Platão, o mundo sensível:</h3>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="question5" value="correct">  é imperfeito e ilusório, em contraste com o mundo das ideias.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question5" value="incorrect"> representa a verdadeira realidade.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question5" value="incorrect">  é o único caminho possível para o conhecimento.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="question5" value="incorrect"> deve ser valorizado mais que a razão.
+
+                    </label>
+                </div>
+            </div>
+            
+
+            <button id="submit-quiz">Verificar respostas</button>
+            
+            <div id="result">
+                <!-- Resultado será exibido aqui pelo JavaScript -->
+            </div>
+            
+            <a href="index.html" class="back-to-home">Voltar ao Início</a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
