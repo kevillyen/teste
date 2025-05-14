@@ -71,7 +71,7 @@ h2 {
     width: 80%;
     margin: 15px auto;
     padding: 10px;
-    background-color: #5b96ee;
+    background-color: #518ce4;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -81,11 +81,11 @@ h2 {
 }
 
 .subject-card button:hover {
-    background-color: #b98828;
+    background-color: #2c39ee;
 }
 
 .math h3 {
-    background-color: #ef7c29;
+    background-color: #ef5129;
 }
 
 .portuguese h3 {
@@ -93,7 +93,7 @@ h2 {
 }
 
 .human h3 {
-    background-color: #24b4c4;
+    background-color: #23cfc4;
 }
 
 .nature h3 {
