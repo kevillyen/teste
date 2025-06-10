@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Quiz Escolar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact-styles.css">
+</head>
+<body>
+
+     <header>
+   
+    <h1>Quizando🎮</h1>
+     <a href="index.html" class="home-button">🏠 Início</a>
+     <a href="contato.html" class="home-button">📲 Contato</a>
+      <a href="sobre.html" class="home-button">🙋🏼‍♀️ Sobre nós</a>
+  </header>
+
+    <div class="container">
+        
+        <h2>Tem dúvidas ou sugestões? Fale conosco!</h2>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Informações de Contato</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <strong>Email:</strong>
+                        <p>contato@quizando.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <strong>Telefone:</strong>
+                        <p>(11) 96707-1882</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">🕒</div>
+                    <div>
+                        <strong>Horário de Atendimento:</strong>
+                        <p>Segunda a Sexta: 8h às 18h</p>
+                        <p>Sábado: 8h às 12h</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <strong>Endereço:</strong>
+                        <p>Rua das Escolas, 123</p>
+                        <p>São Paulo - SP</p>
+                        <p>CEP: 01234-567</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <h3>Envie sua Mensagem</h3>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome Completo:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Telefone (opcional):</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Assunto:</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Selecione o assunto</option>
+                            <option value="duvida">Dúvida sobre o Quiz</option>
+                            <option value="sugestao">Sugestão de Melhoria</option>
+                            <option value="problema">Reportar Problema</option>
+                            <option value="elogio">Elogio</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Digite sua mensagem aqui..."></textarea>
+                    </div>
+                    
+                    <button type="submit" id="submit-contact">Enviar Mensagem</button>
+                </form>
+                
+                <div id="contact-success" class="success-message" style="display: none;">
+                    <h4>✅ Mensagem enviada com sucesso!</h4>
+                    <p>Obrigado pelo contato. Responderemos em breve!</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <footer>
+        <p>Copyright © 2025 Rede Omnia - Todos os direitos reservados. Proibida a reprodução total ou parcial sem prévia autorização (Inciso I do Artigo 29 Lei 9.610/98)</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
